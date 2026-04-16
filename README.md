@@ -36,6 +36,8 @@ MAE
 R²
 CMAPSS asymmetric score
 Model comparison bar chart
+
+
 🔮 Prediction
 Upload CSV for a single engine
 Predict RUL using trained models
@@ -49,35 +51,6 @@ Database	PostgreSQL
 Frontend	React, Vite, Material-UI, Recharts, Axios
 Deployment	Local environment
 
-Project Structure
-rul_prediction_system/
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── config.py
-│   │   ├── database.py
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── routers/
-│   │   ├── services/
-│   │   └── utils/
-│   ├── data/
-│   ├── models_store/
-│   ├── requirements.txt
-│   └── .env.example
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── theme.js
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── vite.config.js
-│
-└── README.md
 ⚙️ Setup Instructions
 📌 Prerequisites
 Python 3.9+
@@ -191,11 +164,14 @@ Ensure it matches frontend URL
 This project is for educational purposes as part of a Cavendish University Uganda capstone project.
 NASA CMAPSS dataset is publicly available.
 
+
 🙏 Acknowledgements
 NASA Prognostics Center of Excellence
 Scikit-learn
 FastAPI
 React
+
+
 👨‍💻 Authors
 Edrin Kibendo
 Paul Ssozi
